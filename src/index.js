@@ -1,23 +1,32 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './index.css'
 
-function Greeting() {
+const BookList = () => {
   return (
-    <>
-      <h3>
-        <ul>
-          <li>
-            <a href="https://google.com">HEllo World</a>
-          </li>
-        </ul>
-      </h3>
-    </>
+    <section className="booklist">
+      <Book />
+      <Book />
+      <Book />
+    </section>
   )
 }
 
-// function Greeting() {
-//   return React.createElement('h2', {}, 'HEy World!')
-// }
+const Book = () => {
+  return (
+    <article className="book">
+      <Image />
+      <Title />
+      <Author />
+    </article>
+  )
+}
+
+const Image = () => (
+  <img src="./images/book-1.jpg" alt="The Spear Cuts Through Water" />
+)
+const Title = () => <h2>The Spear Cuts Through Water</h2>
+const Author = () => <h3>Simon Jimenez</h3>
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<Greeting />)
+root.render(<BookList />)
