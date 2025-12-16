@@ -2,35 +2,37 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 
-const title = 'The Spear Cuts Through Water'
-const author = 'Simon Jimenez'
+const books = [
+  {
+    id: 1,
+    title: 'Piranesi',
+    author: 'Susanna Clarke',
+    img: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1609095173i/50202953.jpg',
+  },
+  {
+    id: 2,
+    title: 'The Spear Cuts Through Water',
+    author: 'Simon Jimenez',
+    img: './images/book-1.jpg',
+  },
+]
 
 const BookList = () => {
   return (
     <section className="booklist">
-      <Book job="developer" />
-      <Book age={22} />
-      <Book>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          velit voluptatum totam vero, id repellat corrupti tempora reiciendis
-          aliquid laudantium commodi dolore alias doloremque, placeat, soluta
-          blanditiis iusto porro! Ad!
-        </p>
-      </Book>
+      {books.map((book) => (
+        <Book {...book} key={book.id} />
+      ))}
     </section>
   )
 }
 
-const Book = ({ job, age, children }) => {
+const Book = ({ title, author, img }) => {
   return (
     <article className="book">
-      <img src="./images/book-1.jpg" alt="The Spear Cuts Through Water" />
+      <img src={img} alt={title} />
       <h2>{title}</h2>
       <h3>{author}</h3>
-      <p>{job}</p>
-      <p>{age}</p>
-      {children}
     </article>
   )
 }
