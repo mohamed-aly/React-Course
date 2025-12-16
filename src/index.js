@@ -10,12 +10,19 @@ const BookList = () => {
     <section className="booklist">
       <Book job="developer" />
       <Book age={22} />
-      <Book />
+      <Book>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          velit voluptatum totam vero, id repellat corrupti tempora reiciendis
+          aliquid laudantium commodi dolore alias doloremque, placeat, soluta
+          blanditiis iusto porro! Ad!
+        </p>
+      </Book>
     </section>
   )
 }
 
-const Book = ({ job, age }) => {
+const Book = ({ job, age, children }) => {
   return (
     <article className="book">
       <img src="./images/book-1.jpg" alt="The Spear Cuts Through Water" />
@@ -23,6 +30,7 @@ const Book = ({ job, age }) => {
       <h3>{author}</h3>
       <p>{job}</p>
       <p>{age}</p>
+      {children}
     </article>
   )
 }
