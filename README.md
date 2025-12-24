@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+♟️ 60‑Minute Daily Chess Checklist (800 → 900 Rapid)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Print this page and keep it next to you while training.
+Follow it exactly. Consistency > intensity.
 
-## Available Scripts
+⸻
 
-In the project directory, you can run:
+⏱️ TOTAL TIME: 60 MINUTES
 
-### `npm start`
+⸻
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🧠 1️⃣ TACTICS — 15 minutes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Goal: Stop missing simple tactics
 
-### `npm test`
+☐ Puzzle Rush (5 min) OR Custom puzzles
+☐ Look for Checks → Captures → Threats
+☐ Focus on: forks, pins, skewers, hanging pieces, basic mates
+☐ If wrong → retry once (don’t guess)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⸻
 
-### `npm run build`
+♟️ 2️⃣ OPENING TRAINING vs COMPUTER — 10 minutes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Goal: Safe development + clear plan
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+☐ Play vs 600–700 rated computer
+☐ Train ONLY openings (not full games)
+☐ Stop after move 8–10
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Rotate openings:
 
-### `npm run eject`
+☐ Italian Game (White)
+☐ Scandinavian (Black vs e4)
+☐ QGD Setup (Black vs d4)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+☐ Before stopping, say/write:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+“My next plan is: ****\_\_****”
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+☐ Reset game immediately
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+⸻
 
-## Learn More
+🎮 3️⃣ ONE RAPID GAME — 20 minutes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Goal: Apply good habits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+☐ Time control: 10+5 or 15+10
+☐ Play only ONE game
 
-### Code Splitting
+Before EVERY move ask:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+☐ What is my opponent attacking?
+☐ Is my move safe?
 
-### Analyzing the Bundle Size
+☐ Castle early
+☐ No random pawn pushes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⸻
 
-### Making a Progressive Web App
+📘 4️⃣ GAME REVIEW — 10 minutes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Goal: Fix real mistakes
 
-### Advanced Configuration
+Write down:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+☐ 1 blunder
+• Move #: \_**\_
+• Why it was wrong: **\_\_\_\_****
+• Fix for next time: ****\_\_****
 
-### Deployment
+☐ 1 missed tactic
+• Pattern missed: ****\_\_****
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+☐ Ignore deep engine lines
 
-### `npm run build` fails to minify
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+♜ 5️⃣ ENDGAME MINI‑DRILL — 5 minutes
+
+Goal: Convert winning games
+
+Rotate daily:
+☐ King + Queen vs King
+☐ King + Rook vs King
+☐ King + Pawn vs King (opposition)
+
+⸻
+
+🧠 DAILY RULES (READ BEFORE PLAYING)
+
+☐ Don’t hang pieces
+☐ Finish development before attacking
+☐ If unsure → improve worst piece
+☐ If no tactic → follow your plan
+
+⸻
+
+🚫 AVOID
+
+☐ Blitz / Bullet
+☐ Long opening videos
+☐ Memorizing theory
+☐ Playing while tired or tilted
+
+⸻
+
+🎯 FINAL CHECK
+
+☐ I trained for 60 minutes today
+☐ I followed the checklist
+☐ I stopped openings at the right time
+
+Do this daily and 900 will come naturally.

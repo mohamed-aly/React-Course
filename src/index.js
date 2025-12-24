@@ -2,38 +2,34 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 
-const books = [
-  {
-    id: 1,
-    title: 'Piranesi',
-    author: 'Susanna Clarke',
-    img: 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1609095173i/50202953.jpg',
-  },
-  {
-    id: 2,
-    title: 'The Spear Cuts Through Water',
-    author: 'Simon Jimenez',
-    img: './images/book-1.jpg',
-  },
-]
+import { books } from './data'
+import { Book } from './Book'
 
-const BookList = () => {
+const EventExample = () => {
+  const handleButtonClick = (e) => {
+    alert(`button clicked ${e.target.name}`)
+  }
+
   return (
-    <section className="booklist">
-      {books.map((book) => (
-        <Book {...book} key={book.id} />
-      ))}
-    </section>
+    <form>
+      <input type="text" />
+      <button onClick={handleButtonClick}>click me</button>
+    </form>
   )
 }
 
-const Book = ({ title, author, img }) => {
+const BookList = () => {
+  const getBook = (id) => {
+    const book = books.find((book) => book.id === id)
+    console.log(book)
+  }
   return (
-    <article className="book">
-      <img src={img} alt={title} />
-      <h2>{title}</h2>
-      <h3>{author}</h3>
-    </article>
+    <section className="booklist">
+      <EventExample />
+      {books.map((book, index) => (
+        <Book getBook={getBook} {...book} key={book.id} index={index} />
+      ))}
+    </section>
   )
 }
 
